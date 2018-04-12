@@ -1,0 +1,78 @@
+body {
+  font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #888; 
+}
+
+#logo {
+	padding-right: 5%;
+	float: left;
+}
+
+.header {
+	clear: both;
+}
+
+p.lead {
+  font-size: 140%;
+  clear: right;
+}
+
+strong {
+	color: #DFAE9F;
+}
+
+a, a:hover {
+	color: #F1E0C6;
+}
+
+.links {
+	text-align: center;
+}
+
+.button.button-primary {
+	color: #FFF;
+	border-color: #F1E0C6;
+    background-color: #F1E0C6;
+}
+.button.button-primary:hover {
+	color: #FFF;
+	border-color: #EEEDDB;
+    background-color: #EEEDDB;
+}
+.button.button-primary:focus {
+	color: #FFF;
+	border-color: #EEEDDB;
+    background-color: #EEEDDB;
+}
+
+.docs-header {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    letter-spacing: .2rem;
+    font-weight: 600;
+    color: #F1E0C6;
+}
+
+.row {
+	margin-top: 10%;
+}
+
+@media (min-width: 0px) {
+	#logo {
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    padding-right: 0px;
+	    float: none;
+	}
+}
+
+@media (min-width: 750px) {
+
+	#logo {
+		padding-right: 5%;
+		float: left;
+		display: inline;
+		clear: both;
+	}
+}
