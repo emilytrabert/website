@@ -1,6 +1,6 @@
 body {
   font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #888; 
+  color: #40433C;
 }
 
 #logo {
@@ -18,11 +18,11 @@ p.lead {
 }
 
 strong {
-	color: #DFAE9F;
+	color: #B2BD7B;
 }
 
 a, a:hover {
-	color: #F1E0C6;
+	color: #949189;
 }
 
 .links {
@@ -31,18 +31,18 @@ a, a:hover {
 
 .button.button-primary {
 	color: #FFF;
-	border-color: #F1E0C6;
-    background-color: #F1E0C6;
+	border-color: #40433C;
+    background-color: #40433C;
 }
 .button.button-primary:hover {
 	color: #FFF;
-	border-color: #EEEDDB;
-    background-color: #EEEDDB;
+	border-color: #B2BD7B;
+    background-color: #B2BD7B;
 }
 .button.button-primary:focus {
 	color: #FFF;
-	border-color: #EEEDDB;
-    background-color: #EEEDDB;
+	border-color: #949189;
+    background-color: #949189;
 }
 
 .docs-header {
@@ -50,7 +50,7 @@ a, a:hover {
     font-size: 1.4rem;
     letter-spacing: .2rem;
     font-weight: 600;
-    color: #F1E0C6;
+    color: #949189;
 }
 
 .row {
